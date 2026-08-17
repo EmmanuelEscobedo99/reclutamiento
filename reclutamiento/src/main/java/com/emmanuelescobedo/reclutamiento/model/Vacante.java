@@ -10,7 +10,7 @@ import java.time.LocalDate;
 @Entity
 public class Vacante {
 
-    @Id
+    @Id //
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long codeVacante;
     private String titulo;
